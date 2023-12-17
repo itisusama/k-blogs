@@ -1,0 +1,28 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.logo h1{
+  color: red;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul{
+  list-style: none;  
+  display: flex;
+  gap: 2rem;
+}
+
+a{
+  text-decoration: none;
+  color: green;
+}
+
+a:hover{
+  color: white;
+}
